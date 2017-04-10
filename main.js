@@ -18,7 +18,7 @@ define(function (require, exports, module) {
     // Default theme if not defined
     if(Preferences.get("dark") === undefined) {
         Preferences.definePreference("dark", "boolean", false);
-        Preferences.set("dark", false);
+        Preferences.set("dark", true);
         Preferences.save();
     }
 
